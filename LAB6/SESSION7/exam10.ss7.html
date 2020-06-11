@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thumbnail</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 40px 80px;
+            background: #fff;
+            font: 70% Arial,Helvetica, sans-serif;
+            color: #555;
+            line-height: 100%;
+        }
+        h1,h2{
+            font-size: 180%;
+            font-weight: normal;
+            color: #555555;
+        }
+        p{
+            margin: 1em 0;
+        }
+        pa{
+            width: 500px;
+        }
+        a{
+            color: #f20;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #999;
+        }
+        img {
+            border: none;
+        }
+            ul#thumbs, ul#thumbs li{
+                margin: 0;
+                padding: 0;
+            list-style: none;
+            }
+        ul#thumbs a{
+            display: block;
+            float: left;
+            width: 125px;
+            height: 135px;
+            line-height: 50px;
+            overflow: hidden;
+            position: relative;
+            z-index: 1;
+        }
+        ul#thumbs a img{
+            float: left;
+            position: absolute;
+            top: 0;
+            left:0;
+        }
+        ul#thumbs a:hover{
+            overflow: visible;
+            z-index: 1000;
+            border: none;
+        }
+        ul#thumbs a:hover img{
+            border: 1px solid#999;
+            background: #fff;
+            padding: 2px;
+        }
+        ul#thumbs :after, li#thumbs :after{
+
+            display:block;
+            height:0;
+            clear:both;
+            visibility:hidden;
+
+        }
+        ul#thumbs, li#thumbs{
+            display:block;
+
+        }
+
+        ul#thumbs, li#thumbs{
+            min-height:1%;
+
+        }
+        *html ul#thumbs, *html li#thumbs {
+            height: 1%;
+        }
+    </style>
+</head>
+<body>
+<h2>Thumbnail</h2>
+<ul id="thumbs">
+    <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AHTML5_logo_and_wordmark.svg&psig=AOvVaw31ojSxosdHsEQc9icEvrXw&ust=1591953752118000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDa1YG4-ekCFQAAAAAdAAAAABAD"
+           target="_blank"><img src="512px-HTML5_logo_and_wordmark.svg.png" height="512" width="512"/></a></li>
+</ul>
+</body>
+</html>
