@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body{
+            color: #494848;
+            font-family: Arial sans-serif;
+        }
+        table{
+            width: 600px;
+        }
+        th{
+            color: white;
+            background-color: #a8a8fa;
+            border:1px solid #939090;
+            border-bottom: 2px solid #6d6de0;
+            text-align: left;
+            padding: 8px;
+        }
+        td{
+            background-color: #bebefa;
+            border:1px solid #d5d3d3;
+            text-align: left;
+            padding: 8px;
+        }
+        tr.even{
+            background-color: #cbcbf3;
+        }
+        input#submit{
+            background-color: #049904;
+            border-radius: 3px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <H1>Poetry Workshops</H1>
+    <p>We will be conducting a number of poetry workshops and symposiums
+    throughout the year.</p>
+    <p>Please note that the following events are free to members:</p>
+
+        <img src="images/icon-plus.png" height="12" width="12"/>A Poetic Perspective
+        <br>
+        <img src="images/icon-plus.png" height="12" width="12"/>Walt Whitman at WAr
+        <br>
+        <img src="images/icon-plus.png" height="12" width="12"/>Found Poems and Outsider Poetry
+        <br>
+        <img src="images/icon-plus.png" height="12" width="12"/>Natural Death: An Exploration
+
+
+    <table>
+        <tr>
+            <th> &nbsp</th>
+            <th>New York</th>
+            <th>Chicago</th>
+            <th>San Francisco</th>
+        </tr>
+        <tr>
+            <td><b>A Poetic Perspective</b></td>
+            <td>Sat, 4 Feb 2012 11am-2pm</td>
+            <td>Sat, 3 Mar 2012 11am-2pm</td>
+            <td>Sat, 17 Mar 2012 11am-2pm</td>
+
+        </tr>
+        <tr class="even">
+            <td><b>Walt Whitman at WAr</b></td>
+            <td>Sat, 7 Apr 2012 11am-1pm</td>
+            <td>Sat, 5 May 2012 11am-1pm</td>
+            <td>Sat, 19 May 2012 11am-1pm</td>
+
+        </tr>
+        <tr>
+            <td><b>Found Poems and Outsider Poetry</b></td>
+            <td>Sat, 9 Jun 2012 11am-2pm</td>
+            <td>Sat, 7 Jul 2012 11am-2pm</td>
+            <td>Sat, 21 Jul 2012 11am-2pm</td>
+        </tr>
+        <tr class="even">
+            <td><b>Natural Death: An Exploration</b></td>
+            <td>Sat, 4 Aug 2012 11am-4pm</td>
+            <td>Sat, 8 Sep 2012 11am-4pm</td>
+            <td>Sat, 15 Sep 2012 11am-4pm </td>
+        </tr>
+    </table>
+
+    <fieldset>
+        <legend><p><i>Register your interest</i></p></legend>
+        Your Name: <input type="text" value=""><br>
+        Your E-mail <input type="email">
+        <br>
+        <p>Your closet center:</p>
+            <select name="country" size="1">
+                <option value="">New York</option>
+                <option value="">Chicago</option>
+                <option value="">San Francisco</option>
+            </select>
+        <p>Are you a member?</p>
+            <input type="radio" value="yes"/>Yes
+            <input type="radio"value="no"/>No
+    </fieldset>
+    <center><input type="submit" value="Register" id="submit" /></center>
+</body>
+</html>

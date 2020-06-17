@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<fieldset>
+    <legend><p>Your Details</p></legend>
+    <label for="name">Name</label>
+    <input type="text" id="Name" size="15" maxlength="30" required="required">
+    <br>
+    <label for="email">Email</label>
+    <input type="text" id="email" size="15" maxlength="30" required="required">
+</fieldset>
+
+<fieldset>
+    <legend><p>Your Review</p></legend>
+    <p>How did you hear about us?</p>
+    <select name="service" size="1">
+        <option value="google">Google</option>
+        <option value="facebook">Facebook</option>
+    </select>
+
+    <p>Would you visit again?</p>
+    <input type="radio" name=""value="yes" />Yes
+    <input type="radio" name=""value="No"/>No
+    <input type="radio" name="" value="maybe">Maybe
+
+    <p>Comments:</p>
+    <textarea id="comments" cols="50" rows="5"></textarea>
+    <br>
+    <input type="checkbox">Sign me up for email updates
+    <br>
+    <input type="submit" value="Submit review" />
+</fieldset>
+</body>
+</html>
