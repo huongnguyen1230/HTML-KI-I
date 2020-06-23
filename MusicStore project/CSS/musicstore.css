@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background: #14182a ;
+    color: white;
+    font-family:Verdana, sans-serif;
+
+}
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background: #1b2039;
+}
+.left{
+    width: 400px;
+}
+.right{
+    width: 500px;
+    font-size: 15px;
+    float: right;
+}
+.right h4{
+    color: #39c6db;
+}
+.recent{
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+.recent h3{
+    color: #39c6db;
+    margin-bottom: 25px;
+}
+.song h3{
+    color: white;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    border-radius: 10px;
+}
+.trend{
+    border-top: 2px solid white;
+    text-align: center;
+    margin-top: 20px;
+}
+.trend p{
+    
+    margin-bottom: 100px;
+}
+.record{
+    border-top: 5px solid white ;
+    text-align: center;
+}
+.feature h3{
+    color: #39c6db;
+    margin-bottom:25px ;
+}
+.nav{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.nav ul,li{
+    display: inline;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 10px;
+}
+.nav a:hover{
+    color:#39c6db;
+}
+footer{
+    border-top: 1px solid white;
+}
+.column{
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+.column h3{
+    color: #39c6db;
+}
+.column a{
+    color: #0003a3;
+}
+.column img{
+    margin-top: 15px;
+}
