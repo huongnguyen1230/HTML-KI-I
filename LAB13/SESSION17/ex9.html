@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        #mCanvas {
+            border: 1px solid #9C9898;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            var canvas = document.getElementById("mCanvas");
+            var ctext = canvas.getContext("2d");
+            var imgObj = new Image();
+            imgObj.onload = function() {
+                ctext.drawImage(imgObj, 69, 50);
+            };
+            imgObj.src = "https://i.pinimg.com/236x/68/" +
+                "f8/4d/68f84da9cf9d7c94e0a3a5b06a12f512.jpg";
+        };
+    </script>
+</head>
+<body>
+<canvas id="mCanvas" width="368" height="300"></canvas>
+</body>
+</html>
