@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-3.5.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var JSONString = '[{ "firstName":"jungkook","lastName":"jeon","gender":"Male","salary":5000},' +
+                '{"firstName":"Huong","lastName":"Nguyen","gender":"Female","salary":4000}]';
+
+            var employeeJSON = JSON.parse(JSONString);
+
+            var result = '';
+
+            $.each(employeeJSON, function (i, item) {
+                result += 'First Name = ' + item.firstName + '<br/>';
+                result += 'Last Name =' + item.lastName + '<br/>';
+                result += 'Gender =' + item.gender + '<br/>';
+                result += 'Salary =' + item.salary + '<br/>';
+            });
+            $('#resultDiv').html(result);
+        });
+    </script>
+</head>
+<body style="font-family: Arial">
+<div id="resultDiv"></div>
+</body>
+</html>
