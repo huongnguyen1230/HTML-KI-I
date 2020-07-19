@@ -1,0 +1,59 @@
+body{
+    background-color: #000159;
+}
+#header{
+    background-color: #01cbcb;
+    text-align: center;
+}
+#title{
+    margin-top: 30px;
+    margin-left: 630px;
+}
+.instruction{
+    color: #01cbcb;
+}
+#text-ins{
+    padding-left: 480px;
+}
+.num{
+    color: #01cbcb;
+    font-size: 30px;
+}
+.text{
+    color: white;
+    padding-left: 40px;
+}
+#door{
+    margin-top: 10px;
+    margin-left: 500px;
+}
+#door img{
+    padding: 10px;
+}
+#goodluck{
+    height: 50px;
+    width: 100px;
+    background-color: #b94726;
+    margin-left: 670px;
+}
+#bottom-content{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+}
+
+.top-text{
+    color: white;
+}
+.score-box{
+    font-size: 50px;
+    background-color: #01cbcb;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+
+
+
+

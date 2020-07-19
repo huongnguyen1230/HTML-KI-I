@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chore Door</title>
+    <link rel="stylesheet" href="asm.css">
+
+</head>
+<body>
+    <div id="header">
+        <img src="images/logo.svg">
+    </div>
+    <table id="title">
+        <tr>
+            <td><img src="images/star.svg"></td>
+            <td><p class="instruction">Instruction</p></td>
+            <td><img src="images/star.svg"></td>
+        </tr>
+    </table>
+    <table id="text-ins">
+        <tr>
+            <td class="num">1</td>
+            <td class="text">Hiding behind one of these doors is the ChoreBot</td>
+        </tr>
+        <tr>
+            <td class="num">2</td>
+            <td class="text">Your mission is to open all of the doors without running into the ChoreBot</td>
+        </tr>
+        <tr>
+            <td class="num">3</td>
+            <td class="text">If you manage to avoid the ChoreBot until the very last door, you win</td>
+        </tr>
+        <tr>
+            <td class="num">4</td>
+            <td class="text">See if you can score a winning streak!</td>
+        </tr>
+    </table>
+    <div id="door">
+        <img src="images/closed_door.svg">
+        <img src="images/closed_door.svg">
+        <img src="images/closed_door.svg">
+<!--        <div id="open_door">-->
+<!--            <img id="pic1" class="image" src="images/beach.svg">-->
+<!--            <img id="pic2" class="image" src="images/robot.svg">-->
+<!--            <img id="pic3" class="image" src="images/space.svg">-->
+<!--        </div>-->
+
+    </div>
+    <button id="goodluck" type="button">Good Luck</button>
+<!--    <table id="bottom-content">-->
+<!--            <tr>-->
+<!--                <th class="top-text">Current streak:</th>-->
+<!--                <th class="top-text">Best streak:</th>-->
+<!--            </tr>-->
+<!--           <tr>-->
+<!--               <td class="score-box">0</td>-->
+<!--               <td class="score-box">0</td>-->
+<!--           </tr>-->
+<!--    </table>-->
+    <div id="bottom-content">
+        <div class="left-content">
+            <p class="top-text">Current Streak:</p>
+            <p class="score-box">0</p>
+        </div>
+        <div class="right-content">
+            <p class="top-text">Best Streak:</p>
+            <p class="score-box">0</p>
+        </div>
+    </div>
+    <script src="asm.js"></script>
+</body>
+</html>
